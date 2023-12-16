@@ -1,0 +1,63 @@
+/*Developer: Laura Loaiza IS117-001, Fall 2023*/
+/*Header Style*/
+h2{
+    font-size: 36px;
+    font-weight: bold;
+    color:rgb(185, 111, 255) ;
+    margin-top: 15px;
+}
+/*Books style*/
+.books h3{
+    list-style:none;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+}
+.books{
+    padding-top:20px;
+    padding-left:50px;
+}
+.image{
+    float:left;
+    padding:10px;
+    max-width:40%;
+    width:350px;
+    height:350px;
+}
+#remindersofhim h3{
+    padding-left:10px;
+}
+#remindersofhim img{
+    padding-top: -5px;
+}
+#seven img{
+    padding-top:10px;
+}
+#games img{
+    padding-top:10px;
+}
+#addie img{
+    padding-top:10px;
+}
+.books::after{
+    content:"";
+    clear:both;
+    display:table;
+}
+/*links*/
+.books a:hover{
+    background-color: white;
+}
+/*Footer*/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(239, 222, 255);
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}

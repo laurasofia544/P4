@@ -1,0 +1,58 @@
+/*Developer: Laura Loaiza IS117-001, Fall 2023*/
+/*Header style*/
+h2{
+    font-size: 36px;
+    font-weight:bold;
+    color:rgb(185, 111, 255);
+    margin-top: 15px;
+}
+/*Page style*/
+#remindersofhim1 img{
+    width:350px;
+    height:380px;
+    max-width:40%;
+    object-fit: cover;
+}
+body{
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    min-height:100vh;
+}
+.wrapper2{
+    margin:60px auto;
+    width:70%
+}
+.text-box h3{
+    font-weight: bold;
+    text-align: left;
+    font-size:30px;
+    color: black;
+    padding-left:52px;
+}
+img{
+    width:380px;
+    height:380px;
+    max-width: 40%;
+    object-fit: cover;
+    padding-top:10px;
+    float:left;
+    margin-right:15px;
+}
+.books::after{
+    content:"";
+    clear:both;
+    display:table;
+}
+/*footer*/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(239,222,255);
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
