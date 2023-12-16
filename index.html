@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<!--Developer: Laura Loaiza IS117-001, Fall 2023-->
+    <meta charset="UTF-8">
+    <title>E-Lib by Laura Loaiza</title>
+    <link rel="shortcut icon" href="images/logo.png">
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+  <body>
+<!--Navigation-->
+    <div class="container-fluid">
+      <div class="row">
+        <nav
+          class="navbar navbar-expand-md justify-content-start bg-dark navbar-dark col-12">
+          <!-- Brand -->
+          <a class="navbar-brand" href="#">E-lib</a>
+          <!-- Responsive Button for the smaller menu -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <!-- Links -->
+              <li class="nav-item">
+                <a class="nav-link" href="pages/library.html">My Library</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/books.html">Books</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Search</a>
+              </li>
+              <li class="nav_item">
+                <a class="nav-link" href="pages/q&a.html">Q&A</a>
+              </li>
+              <!-- Dropdown -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="pages/contact.html" id="navbardrop" 
+                  data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> 
+                  Contact Me
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="pages/contact.html">Email Me</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+<!--Body-->
+    <div class="wrapper">
+        <main>
+          <h2>Welcome to E-lib, <br/> Your Favorite <br/> Interactive Online <br/>Library!</h2>
+            <img src="images/stack_books.png" alt="stack of books">
+            <h3> Take a look at some of my <br/>personal favorites!</h3>
+        </main>
+<!--Cards-->
+    <div class="top-three">
+      <h3>My Top Three</h3>
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top mx-auto d-block" src="images/reminders.png" alt="Reminders of Him">
+        <div class="card-body">
+          <h5 class="card-title text-center">Reminders of <br/> Him</h5>
+          <p class="card-text text-justify">by Colleen Hoover</p>
+          <a href="pages/library.html" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top mx-auto d-block" src="images/sevenhusbands.webp" alt="Seven Husbands of Evelyn Hugo">
+        <div class="card-body">
+        <h5 class="card-title text-center">The Seven Husbands of Evelyn Hugo</h5>
+        <p class="card-text text-justify">by Taylor Jenkins Reid</p>
+        <a href="pages/library.html" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top mx-auto d-block" src="images/addielarue.png" alt="The Invisible Life of Addie LaRue">
+        <div class="card-body">
+        <h5 class="card-title text-center">The Invisible Life of Addie LaRue</h5>
+        <p class="card-text text-justify">by V.E Schwab</p>
+        <a href="pages/library.html" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+</div>
+    </div>
+<!--Footer-->
+      <footer class="footer page-footer font-small">
+        <div class="container">
+          <div class="row">
+            <span class="text-muted">&copy; Laura Loaiza, 2023 | Terms Of Use | Privacy Statement</span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- Javascript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous">
+    </script>
+  </body>
+</html>
